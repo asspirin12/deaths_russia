@@ -94,6 +94,6 @@ finalise_plot(
   width_pixels = 640,
 )
 
-cairo_pdf("pdf/russia_plot.pdf", width = 670/72, height = 480/72)
+cairo_pdf("russia_plot.pdf", width = 670/72, height = 480/72)
 print(russia_plot)
 dev.off()
